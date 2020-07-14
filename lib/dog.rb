@@ -8,7 +8,7 @@ class Dog
 
   def breed=(breed)
     @breed = breed
-    puts @breed
+    puts breed
   end
 
 end
