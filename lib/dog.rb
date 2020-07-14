@@ -1,15 +1,14 @@
 
 class Dog
 
-  @name = "Wilson"
-  @breed = "Corgi"
-
-  def name (name)
+  def name=(name)
+    @name = name
     puts @name
   end
 
-  def breed (breed)
-    puts @breed
+  def breed=(breed)
+    @breed = breed
+    puts @name
   end
 
 end
